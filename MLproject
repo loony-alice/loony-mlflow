@@ -8,5 +8,5 @@ entry_points:
        n_estimators: {type: int, default: 100}
        min_samples_split: {type: int, default: 2}
        min_samples_leaf: {type: int, default: 2}
-    command: "python train_clf.py {n_estimators} {min_samples_split} {min_samples_leaf}"  
+    command: "python train_rf_classifier.py {n_estimators} {min_samples_split} {min_samples_leaf}"  
   
